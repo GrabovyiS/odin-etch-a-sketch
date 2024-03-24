@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+#etch-a-sketch {
+  width: 800px;
+  height: 800px;
+  border: 2px solid black;
+  padding: 0.125%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#etch-a-sketch div {
+  border: 2px solid black;
+}
+
+#etch-a-sketch .sixteenth {
+  width: 6%;
+  height: 6%;
+  margin: 0.125%;
+}
