@@ -6,9 +6,10 @@
   width: 800px;
   height: 800px;
   border: 2px solid black;
-  padding: 0.125%;
+  padding: 0.1%;
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 #etch-a-sketch div {
@@ -16,12 +17,20 @@
   transition: background-color .5s;
 }
 
-#etch-a-sketch .sixteenth {
-  width: 6%;
-  height: 6%;
-  margin: 0.125%;
-}
-
 .scratched {
   background-color: brown;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+  pad: 24px;
+}
+
+.button {
+  padding: 16px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 16px;
 }
