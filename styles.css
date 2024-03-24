@@ -13,10 +13,15 @@
 
 #etch-a-sketch div {
   border: 2px solid black;
+  transition: background-color .5s;
 }
 
 #etch-a-sketch .sixteenth {
   width: 6%;
   height: 6%;
   margin: 0.125%;
+}
+
+.scratched {
+  background-color: brown;
 }
